@@ -1,0 +1,19 @@
+[user]
+	name = Adolph Trudeau
+	email = github@adolphtrudeau.com
+[core]
+	autocrlf = true
+	safecrlf = true
+[alias]
+	co = checkout
+	st = status
+	ci = commit
+	cim = "commit -m "
+	br = branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+	hista = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short --all
+[github]
+	user = adolph
+	token = d46269a562685320de694ab3dc1cd2c4
